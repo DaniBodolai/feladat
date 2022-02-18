@@ -1,17 +1,9 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin-left: 15px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,9 +16,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +25,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.nanav{
+  margin-left: 50px;
+  transition: transform .2s;
+  padding-right: auto;
+}
+
+.nanav:hover{
+
+  background-color: rgb(64, 19, 228);
+  color:white;
+  transform: scale(1.2);
+}
+.zoom{
+  transition: transform .2s;
+}
+.zoom:hover{
+  transform: scale(1.01);
 }
